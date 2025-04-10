@@ -1,0 +1,16 @@
+{ "Product" : "Flight",
+  "ServiceChargeNameForAgency": "wwefffxwz",
+  "ServiceChargeDescription": "sayed",
+  "Country" : "Egypt",
+  "MonthForEndServiceCharge": "Dec",
+  "YearForEndServiceCharge": "2030",
+  "DayForEndServiceCharge": "5",
+  "FareType": "Total Fare",
+  "PercentageOrAmount": "Amount",
+  "ServiceChargeAmount": "100",
+  "Remarks": "Remarks",
+  "ServiceChargeNameForBranch": "SearchLimit"
+
+
+
+}

@@ -1,0 +1,82 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                            Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.roundbooking'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "http://192.168.1.70:8080/odeysysportal/login/signOut" @10-04-2025 13:36:38.0679 PM
+[ReportManager] Initial URL: "http://192.168.1.70:8080/odeysysportal/login/signOut" @10-04-2025 13:36:38.0692 PM
+[ReportManager] Navigate to url "http://192.168.1.70:8080/odeysysportal/login/signOut". @10-04-2025 13:36:38.0873 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:38.0936 PM
+[ReportManager] Type "AGN2" into "Agency Code". @10-04-2025 13:36:39.0001 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:39.0073 PM
+[ReportManager] Type "E.saady@ndceg.com" into "Email". @10-04-2025 13:36:39.0140 PM
+[ReportManager] Get current url "http://192.168.1.70:8080/odeysysportal/login/signOut". @10-04-2025 13:36:39.0148 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:39.0205 PM
+[ReportManager] Type "qqE6)Cxp6>B8" into "Password". @10-04-2025 13:36:39.0244 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:39.0383 PM
+[ReportManager] Click "LOGIN". @10-04-2025 13:36:39.0468 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:41.0322 PM
+[ReportManager] Click "Flight". @10-04-2025 13:36:42.0129 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:42.0308 PM
+[ReportManager] Click "By.xpath: //*[@id="flight-landing-wrap"]/div/div/div/div[3]/div/div[1]/ul/li[2]". @10-04-2025 13:36:42.0399 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:42.0559 PM
+[ReportManager] Click "Only English alphabet is allowed.". @10-04-2025 13:36:42.0612 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:42.0680 PM
+[ReportManager] Type "CAI" into "Only English alphabet is allowed.". @10-04-2025 13:36:42.0700 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: //div[contains(@title,'CAI -')]". @10-04-2025 13:36:43.0228 PM
+[ReportManager] Key press "ENTER" against "Only English alphabet is allowed.". @10-04-2025 13:36:43.0317 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:43.0472 PM
+[ReportManager] Click "Only English alphabet is allowed.". @10-04-2025 13:36:43.0521 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:43.0585 PM
+[ReportManager] Type "DXB" into "Only English alphabet is allowed.". @10-04-2025 13:36:43.0607 PM
+[ReportManager] Key press "ENTER" against "Only English alphabet is allowed.". @10-04-2025 13:36:44.0004 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:44.0155 PM
+[ReportManager] Click "Date Of Journey". @10-04-2025 13:36:44.0212 PM
+[ReportManager] Select "2025" from "By.xpath: //select[@class='ui-datepicker-year']". @10-04-2025 13:36:44.0462 PM
+[ReportManager] Select "Apr" from "By.xpath: //select[@class='ui-datepicker-month']". @10-04-2025 13:36:44.0694 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:44.0828 PM
+[ReportManager] Click "24". @10-04-2025 13:36:44.0961 PM
+[ReportManager] Select "1" from "By.id: noOfAdultsr". @10-04-2025 13:36:45.0232 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:45.0374 PM
+[ReportManager] Click "SEARCH". @10-04-2025 13:36:45.0573 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:49.0210 PM
+[ReportManager] Click "Book Now". @10-04-2025 13:36:49.0335 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: //*[@id="iAccept"]". @10-04-2025 13:36:54.0581 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:54.0750 PM
+[ReportManager] Click "By.xpath: //*[@id="iAccept"]". @10-04-2025 13:36:54.0830 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:54.0980 PM
+[ReportManager] Click "Continue". @10-04-2025 13:36:56.0789 PM
+[ReportManager] Select "Mr" from "By.xpath: //*[@id="passengerTitle_0"]". @10-04-2025 13:36:57.0128 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:57.0182 PM
+[ReportManager] Type "saaed" into "only alphabets allowed with minlength 2". @10-04-2025 13:36:57.0231 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:36:57.0291 PM
+[ReportManager] Type "ramy" into "only alphabets allowed with minlength 2". @10-04-2025 13:36:57.0341 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:57.0516 PM
+[ReportManager] Click "Date of Birth". @10-04-2025 13:36:57.0617 PM
+[ReportManager] Select "1999" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]". @10-04-2025 13:36:59.0407 PM
+[ReportManager] Select "Aug" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]". @10-04-2025 13:36:59.0809 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[2]/td[7]/a". @10-04-2025 13:36:59.0818 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:36:59.0972 PM
+[ReportManager] Click "14". @10-04-2025 13:37:00.0011 PM
+[ReportManager] Select "Male" from "By.xpath: //select[@id="passengerGender_0"]". @10-04-2025 13:37:00.0328 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:37:00.0392 PM
+[ReportManager] Type "7878787878" into "Document Number". @10-04-2025 13:37:00.0434 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:37:00.0582 PM
+[ReportManager] Click "Document Expiry". @10-04-2025 13:37:00.0634 PM
+[ReportManager] Select "Apr" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]". @10-04-2025 13:37:00.0918 PM
+[ReportManager] Select "2025" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]". @10-04-2025 13:37:01.0187 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[3]/a". @10-04-2025 13:37:01.0196 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:37:01.0373 PM
+[ReportManager] Click "22". @10-04-2025 13:37:01.0415 PM
+[ReportManager] Text cleared Using Native Clear @10-04-2025 13:37:01.0498 PM
+[ReportManager] Type "Egy" into "Nationality". @10-04-2025 13:37:01.0546 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.id: ui-id-2". @10-04-2025 13:37:02.0066 PM
+[ReportManager] Scroll to element "By.id: ui-id-2". @10-04-2025 13:37:02.0123 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:37:02.0266 PM
+[ReportManager] Click "By.id: ui-id-2". @10-04-2025 13:37:02.0334 PM
+[ReportManager] Get Text from element, text is "EGP 2,100.00". @10-04-2025 13:37:02.0411 PM
+[ReportManager] Get Text from element, text is "EGP 9,350.00". @10-04-2025 13:37:02.0451 PM
+[ReportManager] Get Text from element, text is "EGP 11450". @10-04-2025 13:37:02.0491 PM
+[ReportManager] Moved the mouse to the middle of the element. @10-04-2025 13:37:02.0652 PM
+[ReportManager] Click "Sign Out". @10-04-2025 13:37:02.0905 PM

@@ -1,0 +1,11 @@
+{
+  "discountSavePageUrl": "http://192.168.1.50:8080/odeysysadmin/Rules/saveRuleDiscount",
+  "productType": "Flight",
+  "discountName": "Tilde Test222888",
+  "discountDescription": "Tilde test team",
+  "country": "egy",
+  "supplier": "Supplier",
+  "fareType": "Total Fare",
+  "Amount": "Amount",
+  "value": "20"
+}

@@ -1,0 +1,457 @@
+[INFO ] 2025-04-10 13:36:08.227 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:08.231 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-04-10 13:36:08.237 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-04-10 13:36:08.236 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-04-10 13:36:08.240 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-04-10 13:36:08.496 [main] Utils - [TestNG] Running:
+  C:\Users\Hatem Mamdouh\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO ] 2025-04-10 13:36:08.513 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of open browser configuration method                                             
+                                   'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.OpenBrowser'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:08.535 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-04-10 13:36:08.790 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-04-10 13:36:09.054 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\booking\target\downloade..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 360000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-04-10 13:36:09.055 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-04-10 13:36:09.055 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-04-10 13:36:09.401 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-04-10 13:36:09.455 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-04-10 13:36:09.800 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-04-10 13:36:09.801 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-04-10 13:36:09.801 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-04-10 13:36:09.802 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-04-10 13:36:09.802 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-04-10 13:36:09.802 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23.0.2)[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-04-10 13:36:09.803 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-04-10 13:36:09.803 [] headers - >> Accept: */*
+[DEBUG] 2025-04-10 13:36:09.803 [] headers - >> Host: api.github.com
+[DEBUG] 2025-04-10 13:36:09.804 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-04-10 13:36:09.804 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23.0.2)
+[DEBUG] 2025-04-10 13:36:09.804 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-04-10 13:36:10.060 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.061 [] wire -  << "Date: Thu, 10 Apr 2025 11:36:08 GMT[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.061 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.061 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.061 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "ETag: W/"934d5dbbcdb9149c5b7f56322f4bf32efd326836d214929ca7638b18cca3b483"[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.062 [] wire -  << "X-RateLimit-Remaining: 47[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "X-RateLimit-Reset: 1744286216[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "X-RateLimit-Used: 13[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "Content-Length: 1553[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "X-GitHub-Request-Id: C920:17FACD:2A1107:2B0338:67F7AD28[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-04-10 13:36:10.063 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-04-10 13:36:10.063 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-04-10 13:36:10.063 [] headers - << Date: Thu, 10 Apr 2025 11:36:08 GMT
+[DEBUG] 2025-04-10 13:36:10.063 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-04-10 13:36:10.063 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-04-10 13:36:10.063 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << ETag: W/"934d5dbbcdb9149c5b7f56322f4bf32efd326836d214929ca7638b18cca3b483"
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Last-Modified: Wed, 09 Apr 2025 21:00:45 GMT
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Server: github.com
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-RateLimit-Remaining: 47
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-RateLimit-Reset: 1744286216
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-RateLimit-Used: 13
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << Content-Length: 1553
+[DEBUG] 2025-04-10 13:36:10.064 [] headers - << X-GitHub-Request-Id: C920:17FACD:2A1107:2B0338:67F7AD28
+[DEBUG] 2025-04-10 13:36:10.079 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-04-10 13:36:10.080 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Xko[0x9c]8[0x14][0xfd]+h[0xaa]j[0xa5]([0xc0][0xc0][0xbc][0x91][0xaa][0xbe][0x92][0xb4]Q[0x95]Tm#[0xad]v[0xdb]jd[0xc0][0x3]N[0x0]S[0xdb][0xcc]$[0x8d][0xfa][0xdf][0xf7][0xd8]0Oe"
+[DEBUG] 2025-04-10 13:36:10.080 [] wire -  << "[0x93]6C>[0x84]1[0x4][0xce][0xbd][0xbe][0x8f]sl[0xdf]v*[0x91]u[0x82]N[0xaa]T)[0x3][0xd7]%%s[0x12][0xa6][0xd2]*t"[0x9e][0xbb][0x82][0x96]\[0xba]_R2S[0xef]?[0xb9]_[0xde][0xbf]>[0xb9][0x98][0x1e][0x9f][0xbf];=?[0xc6][0xbf]2J$[0x95][0xae][0xef]y[0xbd][0xf1]h[0xe0]u;[0x87][0x1d]"%Ur[0xda][0x1e][0xa6][#[0x2][0xba]*3N[0xe2][0x1d][0xe8][0xfa][0xa1]|[0xb4][0xcb][\r][0xfc][0xed][0xcb][0x82][0xe4][0xf4]0#![0xcd]~[0xc1]V[0xaa][0xf2]l[0xc7][0xd2]FP[0xee][0xf][0x87]"[0x89];q|[0xc7][0xef][0xfa][0x83]n[0xbf];[0x1][0x1c][0x8b];[0xc1]*J[0x8]R[0xa5]R.:[0xc1]m'[0xe3][0x9]+[0x10][0xfd][0x1a][0xdc]&[0x91]b[0xbc][0x90]_C[0xae][0xbe]7[0x9f][0xf5][0xbd][0xf1]d[0xec][0x8f][0xfd][0xc3]N[0xc1]c:[0xd5]H[0x9d][0xb3][0xa3][0xb3][0xe1][0xa7]|[0xd2]=?:[0xee][0xbc]Hn>[0x1e][0x9d][0xbe][0xd0][0xb1][0x9f][0x13]E[0xc4]n[0xec][0xcd][0xc3]e[0x80]*IE[0xc4][0xb]E[0xb]e[0xd2][0xcb][\n]"
+[DEBUG] 2025-04-10 13:36:10.080 [] wire -  << "[0xd7][0x1b][0xf4][0x86][0xe3][0x97][0xf3][0x17]} $[0xa2][0xc1]0ft[0xcc][0xef][0xab][\r][\r]&[0xdd]m[0xd7][0x9f][0xf][0xde][0xc0][0xf9][0xe7][0x83][0xa3][0x7][0x83]H[0xca]r[0xf7]c|3[0xe3]Y[0xc6][0x17][0xc0][0xdd][0x9d][0xc6]vY[0xde]k[0xda]][0x81][0xac][0x0]Y[0x91][0xec][0xf][0x8][0x90][[0x97][0xab][0x94]"[0xc6][0x98][0xba][0xae][0x93][0x84][0xc9][0x87][0xaa][0xfd]~W[\r][0xc0]-[0x82]([0x15]r[0xab]!%[0xd2]%[0xe8]n[0x9d][0xef][0xb4][0xe5][0xfd][0xa0][\r][0x4][0x9c]][0x14][0xf0][0xf3][0xd6]t[0xb1][0xc1][0xae]B[0x19][0x9]V[0x9a]*[0xdb]' [@[0x0][0xe6]"![0x5][0xfb]I[0xf6][0x6][0x6][0x90][0x4][0x9e][0xa1][0x9d]}[0x1c]4[0x0][0x0][0xa2]s[0x94][0xfa]^H5[0xc2][0xad][[\n]"
+[DEBUG] 2025-04-10 13:36:10.080 [] wire -  << "6'[0xd1][0x8d][0xe][0xa3][0xa0][0x11]es[0xe4]h[0xf4][0x1d]([0x80][0xab][0x9b][0x92][0xa2][0xf9][0xde]p[0x85][0x1b][0x9d][0xe7][0xe9][0x9c][0xd1][0xc5][0xb4]y\Va[0xc6]"[0x9d]J[0xa6][0xe8][0x94][0xc4][0xb9][0xa6][0x8f][0x19][0xc9]$[0xfd][0xb5][0xc9][0x10][0x9f][0x8f][0xa7]W[0x8b][0xa3][0x8f]o[0xdf][0xd1][0x8b][0xa1][0xec][0x9f][0xe5][0xff]|[0xf6]54I[0xa6][0x9a][0xe7][0x0][0xbf]CP[0xa8][0xb9][0x84][0xaa])(!g[0x8a][0xc9][0x14]o[0xe4][0x4][0xd0][0xc0][0xbc][0xf3][0xfd]X@[0x10][0x1a][0xc3][0x87][0x9d]R[0xd0]F[0xc]V[0x8f]"A[0x89]B[0x84][0x8][0xde][0xea]h&[0xb4][0xbb]}[0xbb];[0xb9][0xf0][0xbd][0xa0][0xdb][\r][0xfc][0xde][0xbf][0x80]6s[0x91][0xe9][0xff][0xbe][0xd5][0x1f][0xe8][0xb7][0x1a][0xfe][0xf][0xbe]~[0xd7][0x13][0x10]![0xc9]v[0x99][0xf9][0xf7]%[0xab][0xf9]~[0x97][0x9e][0xb2]r/[0xd8][0xe6][0xfb]][0xd8][0x90][0xc7]7[0x98][0xfd][0xb3]g[0xd6][0xdf])QI[0xeb]mJ[0x8a][0x84][0xc6][0xdf][0x8a][0x3][0xb]y[0xe3][0xc2][0x9e][0xb1]k*[0xad][0xf0][0xc6]zu[0xc6]S[0x12][0xe2][0xc2][0xa8][0xc5][\n]"
+[DEBUG] 2025-04-10 13:36:10.080 [] wire -  << "k)[0xc6][0xf]iNYe[0x99][0xeb]Mz[0x13][\r][0x19]ASh`[0xd1][0x2]V"j[0x95][0xac][0xa4][0x19]+[0xa8][0x86][0xcf][0xc9][0x15][0xc8][0xcb]R[0x14]dc[0x89][0xaa][0xb0]f\X[0x5][0xa5]1[0x8d][0xf1][0x99]v[0xaa][0xf1][0x82][0xa4]9[0xaf][0xe2]3[0x12][\n]"
+[DEBUG] 2025-04-10 13:36:10.081 [] wire -  << "~[0xf5][0x8]G[0xfa]}[0xed]H[0xcc]#[0xb9][0xf6][0x83]IYQ[0x98][0xce][0xcb][0xc][0x15]a[0xd5][0xb3][0xdd][0xd7]NO[0xdb]yS[0xe5][0xa5][0x85][0x92]u[0x12][0xce][0x93][0x8c]:[0x91][0xb8])[0x15]w[0x14]+[0xae][0x2]}[0xb1]f[0x82][0xe7][0x96][0xe7]xC[0xa7]k)[0xae]G#[0x8c]t[0xb8]cZ[0xd2]"&[0x90][0xaa][0xc7][0xcc][0xd2][Y[0x7]]9D[0x96]4R[0x97]A[0xf3][0xbb][0xa0]dN[0xc5][0xd2]6[0xfa][0xcc]w[0xbc][0xda]:[0xc6][0xbd][0x16][0xac]w[0xb7][0xe6][0x9e][0xb3]Hp[0xc9]g[0xca][0x91]?[0xc0][0x2][0x2][0xb6][0x83]\bl_[0xc6]a[0xd4][0xb8][0xe1];[0x13][0xa7][0xeb]\[\n]"
+[DEBUG] 2025-04-10 13:36:10.081 [] wire -  << "[0xea]y6[0x9a]U[0x13][0x8a]q[0x9][0xae]u[0x97][0xff]h[0xc1]3S[0x86]&+:.9[0x8f][0xae][0x98][0xe2]A[0xf3]kG([0xcf][0xda][0x9f][0xc1]*%f[0xe4][0xb5]`z[0xb4]e[0xfa][0xb2]*[0x98][\n]"
+[DEBUG] 2025-04-10 13:36:10.081 [] wire -  << "[0xcc][0xd5][0xe]Q[0x3][0xa6][0x10]`[0xcb][0xaf][0xb][0xc1][0x8c][0xda][0xb0]:[0xd4]VO[0xc0]t[0x95][0xa0][0xae]\[0x90]$A[0xe6][0xe7]$c[0xb1]QB3[0xaf][0xf]7[0x82]aM#[0xcf]IB[0xd3][0xc7]T[0xdb][0xe0][0xae]ZO*[0xac][0xd4][0x2]s[0xad]g[0xd7][0xeb]9}[0xa7]k#[0xc7]:[0xb3][0xe6]n`[0xee][0xf6].[0xf7][0x81][0xbf]][0xee]%[0x89]R4[0x1b][0xa4][0x2][0x8b][0x88][0xa0][0xf9][0xb5]#9_[0xf5][o[0xd5]op[0xa9][0x5][0x7][0xd6][0xfd][0xc6][0xf8]r[0xa5][0x1f][0xf2][0x82]%DD[0x8c][0x4][0xb][0x1a][0xc6][0x10]g*rR [0xc8]M[0xef][\r]P[0xf3]=[0x1d][0xb]t+^[0x98][0xbe];a[0xd7][0xd6]v[0xa3]{[0xb0][0xd3][0xf4][0xf5]^$>Xw[0xcf][0x6][0xa7][0xdd][0x9d][0xe7]:[0xb3][0xcb]<[0xf][[0xca][0xf3][0xba][0x87][0xb4][0x3][0xb4]$[0xb9][0x93]R[0x92][0xd1][0x82]Uy[0xb0][0x1a][0xd9][0x8]wSr[0xce][0xc0][0xe9][0x9b]j[0xc3]`[0xd0]B[0x9e][0xd7][0x95][0xae][0xf9]Cb[0xa9]M[0xa7]?V[0xc3]`[0xf9][0xcc][0xbe]\[0x15]~[0xdf][0xf1]An[0xda][0x8d][0xbe][0xd3]k'[0xd3]ku1[0xfc]^[0x17]|[0xe]Z/[0x1c][0x89]N[0x9f]1[0xe8][0xec]r`kQ[0x85][0xb6][0x1a][0x8a][0xd1][0x81][0xf0][0x97][0x11]i[0x81][0xeb][0x87]w[0xb6]^[0xed]I[0x99]U[0xd8];[0xca][0xc0][0xdc][0xd9]+w[0xea][0xc7]O[0xe4][0xce][0xb6][0xf0][0x95][0x82]_B[0xf9]2[0x9e][0x87][0xfc]*[0xa8]V[0x1c]0vz[0xc3]Ft1[0x1c][0xef]_[0x1d][0xc3][0xb5][0xee][0xfd][0x1][0xb][0xd4][0xcd][0xdf][0xb0]@[0xb][0x94]?[0xbc][0xb3]6J[0xce][0x2][0xfc][0xd9][0x9c]_[0xe7][0xd9]Rm4[0xf7][0xc1]0z[0xa4][\r][0xad][0x19][0x8e]W,[0x8c][0xe9]GUT[0xe5]![0xa4]~9[0xd8]h[0x88][0x91][0xe3]c[0xa5][0xa3]Mc[0xa4][0x15]oo[0x5][0x18]n[0xab][0xeb][0x3][0xc2]nLCb[Yk[\r][0x8d][0xc4][0x9a]5[0xc5][0x9d][0xd3].Y[0xc4][0xf5][0x81][0x6]6+K[0xe2][0x82][0xf9][0xaf][0x89][0xe9]N'6)[0xe0][0x9][0xac][0x9b]E[0xf5]i[0x8e]v[0x9b]S[0x8b]^G[0xd4][0xec][0xdf]-[0xac][0xdb]c,[0xf0][0x13][0xbd][0xa6]x][0x1f][0x1c]9[0x86][0x16][0xf7][0xde]O[0xc][0xff]@[0x8a]j[0xf1]YJ[0xd1][0xa8][0x1d])[0x1a][0xad]{}[0x83][0x81][0x9b].{[0x9a][0xfe][0x1a]mS[0xed]o[0x8b][0x8f][0x91][0x9c]Z|[0xbc]6zmd86[0xd4][0x5][0x8f][0x15][0x8d][0xd4][0x89][0x6][0xfa][0xe6]v][0xe7][0xfb][0x14]"
+[DEBUG] 2025-04-10 13:36:10.081 [] wire -  << "Gx[0xa2] Y[0x9d]p[0x14][0x82]UB[0xb2]5[0xf9][0xec][0x9d][0xfc][0x11][0x18][0xee][[0x81]M[0xeb]96[0x9]o[0xd1]Z[0x82][0x85][0x95][0xe2]Bj[0xbf]^[0x9d]m[0xed][0xdc]r[0x12]c[0xb9][0x99]R[0x86]5[0x17][0x13]Ra7[0xd6][0xbc][0xaf][0xfd][0xfe][0xf3][0x8d][0xac][0xde]?[0xc2][0xcc][0xc1][0x9][0xf6][0xb5][0xcd]n[0x19]'[0xa4][0x7][0x7][0xc1]o[0xef][0x88][0xb1]r)[0x9][0x16][0xe3][0x13][0xc7][0xab][0xf]`{^[0xcf]q[0xf4][0x12]m[0xf3]<6[0xc7][0xa1][0x90]9[0x2][0x8b]xU[0xe0][0x84][0xa2][0xff][0xeb]?[0x8d][0x86][0x88]$[0x7][0x17][0x0][0x0]"
+[DEBUG] 2025-04-10 13:36:10.081 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-04-10 13:36:10.177 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7ea82d11
+[DEBUG] 2025-04-10 13:36:10.177 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-04-10 13:36:10.756 [main] ReportManager - Apr 10, 2025 1:36:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-04-10 13:36:10.756 [main] ReportManager - WARNING: Unable to find CDP implementation matching 135
+[WARN ] 2025-04-10 13:36:10.757 [main] ReportManager - Apr 10, 2025 1:36:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-04-10 13:36:10.757 [main] ReportManager - WARNING: Unable to find version of CDP to use for 135.0.7049.42. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.22.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-04-10 13:36:10.760 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-04-10 13:36:10.779 [main] ReportManager - Target URL: "http://192.168.1.70:8080/odeysysportal/login/loginForm"
+[INFO ] 2025-04-10 13:36:10.795 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-04-10 13:36:11.036 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2025-04-10 13:36:12.255 [main] ReportManager - Navigate to url "http://192.168.1.70:8080/odeysysportal/login/loginForm".
+[INFO ] 2025-04-10 13:36:12.262 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: OpenBrowser'
+[INFO ] 2025-04-10 13:36:12.283 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of before test configuration method                                             
+                                    'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.beforeTest'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:12.286 [main] ReportManager - Target URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:36:12.300 [main] ReportManager - Initial URL: "http://192.168.1.70:8080/odeysysportal/login/loginForm"
+[INFO ] 2025-04-10 13:36:12.527 [main] ReportManager - Navigate to url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:36:12.635 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:12.680 [main] ReportManager - Type "AGN2" into "Agency Code".
+[DEBUG] 2025-04-10 13:36:12.752 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:12.796 [main] ReportManager - Type "E.saady@ndceg.com" into "Email".
+[INFO ] 2025-04-10 13:36:12.802 [main] ReportManager - Get current url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:36:12.869 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:12.907 [main] ReportManager - Type "qqE6)Cxp6>B8" into "Password".
+[INFO ] 2025-04-10 13:36:13.072 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:15.179 [main] ReportManager - Click "LOGIN".
+[INFO ] 2025-04-10 13:36:15.183 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeTest'
+[INFO ] 2025-04-10 13:36:15.188 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:15.189 [main] ReportManager - Initializing Important Links...
+[INFO ] 2025-04-10 13:36:15.193 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-04-10 13:36:15.264 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                            Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.onewaybooking'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:15.452 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:16.730 [main] ReportManager - Click "Flight".
+[INFO ] 2025-04-10 13:36:16.906 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:16.992 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:36:17.076 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:17.099 [main] ReportManager - Type "CAI" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:17.629 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //div[contains(@title,'CAI -')]".
+[INFO ] 2025-04-10 13:36:17.724 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:17.871 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:17.915 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:36:17.975 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:17.997 [main] ReportManager - Type "DXB" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:18.405 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:18.558 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:18.627 [main] ReportManager - Click "Date Of Journey".
+[INFO ] 2025-04-10 13:36:18.912 [main] ReportManager - Select "2025" from "By.xpath: //select[@class='ui-datepicker-year']".
+[INFO ] 2025-04-10 13:36:19.123 [main] ReportManager - Select "Apr" from "By.xpath: //select[@class='ui-datepicker-month']".
+[INFO ] 2025-04-10 13:36:19.280 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:19.344 [main] ReportManager - Click "24".
+[DEBUG] 2025-04-10 13:36:19.479 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:51488<->140.82.121.5:443 closed
+[INFO ] 2025-04-10 13:36:19.606 [main] ReportManager - Select "1" from "By.id: noOfAdults".
+[INFO ] 2025-04-10 13:36:19.760 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:19.895 [main] ReportManager - Click "SEARCH".
+[INFO ] 2025-04-10 13:36:25.598 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:25.736 [main] ReportManager - Click "Book Now".
+[INFO ] 2025-04-10 13:36:30.085 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:36:30.254 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:30.331 [main] ReportManager - Click "By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:36:30.485 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:32.517 [main] ReportManager - Click "Continue".
+[INFO ] 2025-04-10 13:36:32.828 [main] ReportManager - Select "Mr" from "By.xpath: //*[@id="passengerTitle_0"]".
+[DEBUG] 2025-04-10 13:36:32.899 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:32.959 [main] ReportManager - Type "saaed" into "only alphabets allowed with minlength 2".
+[DEBUG] 2025-04-10 13:36:33.057 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:33.105 [main] ReportManager - Type "ramy" into "only alphabets allowed with minlength 2".
+[INFO ] 2025-04-10 13:36:33.256 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:33.330 [main] ReportManager - Click "Date of Birth".
+[INFO ] 2025-04-10 13:36:34.879 [main] ReportManager - Select "1999" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:36:35.249 [main] ReportManager - Select "Aug" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:36:35.262 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[2]/td[7]/a".
+[INFO ] 2025-04-10 13:36:35.403 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:35.446 [main] ReportManager - Click "14".
+[INFO ] 2025-04-10 13:36:35.729 [main] ReportManager - Select "Male" from "By.xpath: //select[@id="passengerGender_0"]".
+[DEBUG] 2025-04-10 13:36:35.800 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:35.840 [main] ReportManager - Type "7878787878" into "Document Number".
+[INFO ] 2025-04-10 13:36:35.995 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:36.050 [main] ReportManager - Click "Document Expiry".
+[INFO ] 2025-04-10 13:36:36.305 [main] ReportManager - Select "Apr" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:36:36.527 [main] ReportManager - Select "2025" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:36:36.538 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[3]/a".
+[INFO ] 2025-04-10 13:36:36.682 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:36.773 [main] ReportManager - Click "22".
+[DEBUG] 2025-04-10 13:36:36.854 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:36.893 [main] ReportManager - Type "Egy" into "Nationality".
+[INFO ] 2025-04-10 13:36:37.423 [main] ReportManager - Explicit wait until: "presence of any elements located by By.id: ui-id-2".
+[INFO ] 2025-04-10 13:36:37.468 [main] ReportManager - Scroll to element "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:36:37.607 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:37.690 [main] ReportManager - Click "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:36:38.058 [main] ReportManager - Get Text from element, text is "EGP 500.00".
+[INFO ] 2025-04-10 13:36:38.058 [main] ReportManager - AdultBaseFare is EGP 500.00
+[INFO ] 2025-04-10 13:36:38.095 [main] ReportManager - Get Text from element, text is "EGP 6,750.00".
+[INFO ] 2025-04-10 13:36:38.095 [main] ReportManager - AdultTaxFare is EGP 6,750.00
+[INFO ] 2025-04-10 13:36:38.129 [main] ReportManager - Get Text from element, text is "EGP 7250".
+[INFO ] 2025-04-10 13:36:38.129 [main] ReportManager - the total fare is EGP 7250
+[INFO ] 2025-04-10 13:36:38.279 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:38.609 [main] ReportManager - Click "Sign Out".
+[INFO ] 2025-04-10 13:36:38.614 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: onewaybooking'
+[INFO ] 2025-04-10 13:36:38.615 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.onewaybooking'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:38.677 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                            Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.roundbooking'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:36:38.680 [main] ReportManager - Target URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:36:38.692 [main] ReportManager - Initial URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:36:38.874 [main] ReportManager - Navigate to url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:36:38.936 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:39.001 [main] ReportManager - Type "AGN2" into "Agency Code".
+[DEBUG] 2025-04-10 13:36:39.073 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:39.140 [main] ReportManager - Type "E.saady@ndceg.com" into "Email".
+[INFO ] 2025-04-10 13:36:39.148 [main] ReportManager - Get current url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:36:39.205 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:39.244 [main] ReportManager - Type "qqE6)Cxp6>B8" into "Password".
+[INFO ] 2025-04-10 13:36:39.383 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:39.468 [main] ReportManager - Click "LOGIN".
+[INFO ] 2025-04-10 13:36:41.322 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:42.129 [main] ReportManager - Click "Flight".
+[INFO ] 2025-04-10 13:36:42.308 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:42.399 [main] ReportManager - Click "By.xpath: //*[@id="flight-landing-wrap"]/div/div/div/div[3]/div/div[1]/ul/li[2]".
+[INFO ] 2025-04-10 13:36:42.559 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:42.613 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:36:42.680 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:42.700 [main] ReportManager - Type "CAI" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:43.228 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //div[contains(@title,'CAI -')]".
+[INFO ] 2025-04-10 13:36:43.317 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:43.472 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:43.521 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:36:43.585 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:43.607 [main] ReportManager - Type "DXB" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:44.004 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:36:44.155 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:44.212 [main] ReportManager - Click "Date Of Journey".
+[INFO ] 2025-04-10 13:36:44.462 [main] ReportManager - Select "2025" from "By.xpath: //select[@class='ui-datepicker-year']".
+[INFO ] 2025-04-10 13:36:44.694 [main] ReportManager - Select "Apr" from "By.xpath: //select[@class='ui-datepicker-month']".
+[INFO ] 2025-04-10 13:36:44.828 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:44.961 [main] ReportManager - Click "24".
+[INFO ] 2025-04-10 13:36:45.232 [main] ReportManager - Select "1" from "By.id: noOfAdultsr".
+[INFO ] 2025-04-10 13:36:45.374 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:45.573 [main] ReportManager - Click "SEARCH".
+[INFO ] 2025-04-10 13:36:49.210 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:49.335 [main] ReportManager - Click "Book Now".
+[INFO ] 2025-04-10 13:36:54.581 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:36:54.750 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:54.830 [main] ReportManager - Click "By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:36:54.980 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:56.789 [main] ReportManager - Click "Continue".
+[INFO ] 2025-04-10 13:36:57.128 [main] ReportManager - Select "Mr" from "By.xpath: //*[@id="passengerTitle_0"]".
+[DEBUG] 2025-04-10 13:36:57.182 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:57.231 [main] ReportManager - Type "saaed" into "only alphabets allowed with minlength 2".
+[DEBUG] 2025-04-10 13:36:57.291 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:36:57.341 [main] ReportManager - Type "ramy" into "only alphabets allowed with minlength 2".
+[INFO ] 2025-04-10 13:36:57.516 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:36:57.617 [main] ReportManager - Click "Date of Birth".
+[INFO ] 2025-04-10 13:36:59.407 [main] ReportManager - Select "1999" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:36:59.809 [main] ReportManager - Select "Aug" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:36:59.818 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[2]/td[7]/a".
+[INFO ] 2025-04-10 13:36:59.972 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:00.011 [main] ReportManager - Click "14".
+[INFO ] 2025-04-10 13:37:00.328 [main] ReportManager - Select "Male" from "By.xpath: //select[@id="passengerGender_0"]".
+[DEBUG] 2025-04-10 13:37:00.392 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:00.434 [main] ReportManager - Type "7878787878" into "Document Number".
+[INFO ] 2025-04-10 13:37:00.582 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:00.635 [main] ReportManager - Click "Document Expiry".
+[INFO ] 2025-04-10 13:37:00.918 [main] ReportManager - Select "Apr" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:37:01.187 [main] ReportManager - Select "2025" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:37:01.196 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[3]/a".
+[INFO ] 2025-04-10 13:37:01.373 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:01.415 [main] ReportManager - Click "22".
+[DEBUG] 2025-04-10 13:37:01.498 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:01.546 [main] ReportManager - Type "Egy" into "Nationality".
+[INFO ] 2025-04-10 13:37:02.066 [main] ReportManager - Explicit wait until: "presence of any elements located by By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:02.123 [main] ReportManager - Scroll to element "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:02.266 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:02.334 [main] ReportManager - Click "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:02.411 [main] ReportManager - Get Text from element, text is "EGP 2,100.00".
+[INFO ] 2025-04-10 13:37:02.411 [main] ReportManager - AdultBaseFare is EGP 2,100.00
+[INFO ] 2025-04-10 13:37:02.451 [main] ReportManager - Get Text from element, text is "EGP 9,350.00".
+[INFO ] 2025-04-10 13:37:02.452 [main] ReportManager - AdultTaxFare is EGP 9,350.00
+[INFO ] 2025-04-10 13:37:02.491 [main] ReportManager - Get Text from element, text is "EGP 11450".
+[INFO ] 2025-04-10 13:37:02.491 [main] ReportManager - the total fare is EGP 11450
+[INFO ] 2025-04-10 13:37:02.652 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:02.905 [main] ReportManager - Click "Sign Out".
+[INFO ] 2025-04-10 13:37:02.907 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: roundbooking'
+[INFO ] 2025-04-10 13:37:02.908 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.roundbooking'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:02.913 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 4' test cases in the current suite                                        
+                            Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.multibooking'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:02.915 [main] ReportManager - Target URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:37:02.932 [main] ReportManager - Initial URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:37:03.126 [main] ReportManager - Navigate to url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:37:03.196 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:03.228 [main] ReportManager - Type "AGN2" into "Agency Code".
+[DEBUG] 2025-04-10 13:37:03.294 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:03.338 [main] ReportManager - Type "E.saady@ndceg.com" into "Email".
+[INFO ] 2025-04-10 13:37:03.348 [main] ReportManager - Get current url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:37:03.419 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:03.460 [main] ReportManager - Type "qqE6)Cxp6>B8" into "Password".
+[INFO ] 2025-04-10 13:37:03.602 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:05.369 [main] ReportManager - Click "LOGIN".
+[INFO ] 2025-04-10 13:37:05.530 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:06.152 [main] ReportManager - Click "Flight".
+[INFO ] 2025-04-10 13:37:06.348 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:06.435 [main] ReportManager - Click "By.xpath: //*[@id="flight-landing-wrap"]/div/div/div/div[3]/div/div[1]/ul/li[3]".
+[INFO ] 2025-04-10 13:37:06.601 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:06.674 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:37:06.742 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:06.762 [main] ReportManager - Type "CAI" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:07.306 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //div[contains(@title,'CAI -')]".
+[INFO ] 2025-04-10 13:37:07.387 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:07.552 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:07.600 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:37:07.665 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:07.686 [main] ReportManager - Type "DXB" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:08.102 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:08.253 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:08.350 [main] ReportManager - Click "Only English alphabet is allowed.".
+[DEBUG] 2025-04-10 13:37:08.417 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:08.439 [main] ReportManager - Type "CAI" into "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:08.855 [main] ReportManager - Key press "ENTER" against "Only English alphabet is allowed.".
+[INFO ] 2025-04-10 13:37:08.998 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:09.057 [main] ReportManager - Click "Date Of Journey".
+[INFO ] 2025-04-10 13:37:09.334 [main] ReportManager - Select "2025" from "By.xpath: //select[@class='ui-datepicker-year']".
+[INFO ] 2025-04-10 13:37:09.599 [main] ReportManager - Select "Apr" from "By.xpath: //select[@class='ui-datepicker-month']".
+[INFO ] 2025-04-10 13:37:09.748 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:09.813 [main] ReportManager - Click "24".
+[INFO ] 2025-04-10 13:37:09.964 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:10.027 [main] ReportManager - Click "Date Of Journey".
+[INFO ] 2025-04-10 13:37:10.377 [main] ReportManager - Select "2025" from "By.xpath: //select[@class='ui-datepicker-year']".
+[INFO ] 2025-04-10 13:37:10.790 [main] ReportManager - Select "Apr" from "By.xpath: //select[@class='ui-datepicker-month']".
+[INFO ] 2025-04-10 13:37:11.023 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:11.135 [main] ReportManager - Click "24".
+[INFO ] 2025-04-10 13:37:11.449 [main] ReportManager - Select "1" from "By.id: noOfAdultsm".
+[INFO ] 2025-04-10 13:37:11.594 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:11.725 [main] ReportManager - Click "SEARCH".
+[INFO ] 2025-04-10 13:37:15.208 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:15.262 [main] ReportManager - Click "Book Now".
+[INFO ] 2025-04-10 13:37:18.801 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:37:18.982 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:19.063 [main] ReportManager - Click "By.xpath: //*[@id="iAccept"]".
+[INFO ] 2025-04-10 13:37:19.230 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:20.927 [main] ReportManager - Click "Continue".
+[INFO ] 2025-04-10 13:37:21.290 [main] ReportManager - Select "Mr" from "By.xpath: //*[@id="passengerTitle_0"]".
+[DEBUG] 2025-04-10 13:37:21.360 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:21.406 [main] ReportManager - Type "saaed" into "only alphabets allowed with minlength 2".
+[DEBUG] 2025-04-10 13:37:21.476 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:21.521 [main] ReportManager - Type "ramy" into "only alphabets allowed with minlength 2".
+[INFO ] 2025-04-10 13:37:21.677 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:21.745 [main] ReportManager - Click "Date of Birth".
+[INFO ] 2025-04-10 13:37:23.775 [main] ReportManager - Select "1999" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:37:24.275 [main] ReportManager - Select "Aug" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:37:24.285 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[2]/td[7]/a".
+[INFO ] 2025-04-10 13:37:24.446 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:24.483 [main] ReportManager - Click "14".
+[INFO ] 2025-04-10 13:37:24.842 [main] ReportManager - Select "Male" from "By.xpath: //select[@id="passengerGender_0"]".
+[DEBUG] 2025-04-10 13:37:24.916 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:24.965 [main] ReportManager - Type "7878787878" into "Document Number".
+[INFO ] 2025-04-10 13:37:25.136 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:25.187 [main] ReportManager - Click "Document Expiry".
+[INFO ] 2025-04-10 13:37:25.557 [main] ReportManager - Select "Apr" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[1]".
+[INFO ] 2025-04-10 13:37:25.869 [main] ReportManager - Select "2025" from "By.xpath: //*[@id="ui-datepicker-div"]/div/div/select[2]".
+[INFO ] 2025-04-10 13:37:25.877 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[3]/a".
+[INFO ] 2025-04-10 13:37:26.039 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:26.074 [main] ReportManager - Click "22".
+[DEBUG] 2025-04-10 13:37:26.159 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:26.198 [main] ReportManager - Type "Egy" into "Nationality".
+[INFO ] 2025-04-10 13:37:26.714 [main] ReportManager - Explicit wait until: "presence of any elements located by By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:26.774 [main] ReportManager - Scroll to element "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:26.926 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:26.965 [main] ReportManager - Click "By.id: ui-id-2".
+[INFO ] 2025-04-10 13:37:27.056 [main] ReportManager - Get Text from element, text is "EGP 2,100.00".
+[INFO ] 2025-04-10 13:37:27.056 [main] ReportManager - AdultBaseFare is EGP 2,100.00
+[INFO ] 2025-04-10 13:37:27.101 [main] ReportManager - Get Text from element, text is "EGP 9,350.00".
+[INFO ] 2025-04-10 13:37:27.101 [main] ReportManager - AdultTaxFare is EGP 9,350.00
+[INFO ] 2025-04-10 13:37:27.144 [main] ReportManager - Get Text from element, text is "EGP 11450".
+[INFO ] 2025-04-10 13:37:27.144 [main] ReportManager - the total fare is EGP 11450
+[INFO ] 2025-04-10 13:37:27.316 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:27.603 [main] ReportManager - Click "Sign Out".
+[INFO ] 2025-04-10 13:37:27.606 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: multibooking'
+[INFO ] 2025-04-10 13:37:27.606 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.multibooking'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:27.613 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 4' test cases in the current suite                                        
+                           Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.gotomybookings'                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:27.614 [main] ReportManager - Target URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:37:27.631 [main] ReportManager - Initial URL: "http://192.168.1.70:8080/odeysysportal/login/signOut"
+[INFO ] 2025-04-10 13:37:27.812 [main] ReportManager - Navigate to url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:37:27.890 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:27.921 [main] ReportManager - Type "AGN2" into "Agency Code".
+[DEBUG] 2025-04-10 13:37:27.996 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:28.041 [main] ReportManager - Type "E.saady@ndceg.com" into "Email".
+[INFO ] 2025-04-10 13:37:28.056 [main] ReportManager - Get current url "http://192.168.1.70:8080/odeysysportal/login/signOut".
+[DEBUG] 2025-04-10 13:37:28.126 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2025-04-10 13:37:28.167 [main] ReportManager - Type "qqE6)Cxp6>B8" into "Password".
+[INFO ] 2025-04-10 13:37:28.328 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:30.773 [main] ReportManager - Click "LOGIN".
+[INFO ] 2025-04-10 13:37:30.949 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2025-04-10 13:37:31.429 [main] ReportManager - Click "MY BOOKINGS".
+[INFO ] 2025-04-10 13:37:31.432 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: gotomybookings'
+[INFO ] 2025-04-10 13:37:31.433 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                Finished Execution of Test Method: 'TestPackage.MileStoneTwo.PortalPackage.SearchBookingAgencyTC.gotomybookings'                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:31.436 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-04-10 13:37:31.439 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

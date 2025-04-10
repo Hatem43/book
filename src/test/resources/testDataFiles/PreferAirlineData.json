@@ -1,0 +1,13 @@
+{
+  "AirlineInvalidSearch": "Alexandria airlines",
+  "StartingFromPortal": "CAI",
+  "GoingToPortal": "DXB",
+  "AirlineName": "Egyptair",
+  "SupplierName": "Amadeus",
+  "AirlineSearch": "Egytpair",
+  "SupplierSearch": "Amadeus",
+  "Remarks": "APPROVED",
+  "BranchName": "Test",
+  "StartingFrom": "CAI",
+  "GoingTo": "DXB"
+}

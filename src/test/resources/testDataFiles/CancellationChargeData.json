@@ -1,0 +1,19 @@
+{ "Product" : "Flight",
+  "CancellationChargeName": "lowkey",
+  "CancellationChargeDescription": "sayed",
+  "Country" : "Egypt",
+  "MonthForEndCancellationCharge": "Dec",
+  "YearForEndCancellationCharge": "2026",
+  "DayForEndCancellationCharge": "5",
+  "FareType": "Total Fare",
+  "PercentageOrAmount": "Amount",
+  "Remarks": "Remarks",
+  "LeivedBy": "Per Person",
+  "CancellationChargeValueOfAdult": "100",
+  "CancellationChargeValueOfChild" : "100",
+  "CancellationChargeValueOfInfant" : "100"
+
+
+
+
+}

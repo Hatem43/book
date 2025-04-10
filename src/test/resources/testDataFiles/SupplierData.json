@@ -1,0 +1,33 @@
+{
+  "SupplierName": "DOT",
+  "SelectProduct": "Flight",
+  "ProductType": "GDS",
+  "Country": "Egypt",
+  "Address": "Egy",
+  "EmailID": "Test@test.com",
+  "SelectCity": "Cairo",
+  "Pincode": "11765",
+  "SupplierType": "Web Service",
+  "NumberOfContacts": "2",
+  "NameOfFirstContact": "Mohamed",
+  "NameOfSecondContact": "Ahmed",
+  "EmailOfFirstContact": "test@test.com",
+  "EmailOfSecondContact": "test@test.com",
+  "CountryCodeOfFirstContact": "eg",
+  "CountryCodeOfSecondContact": "eg",
+  "PhoneNumberOfFirstContact": "1147647852",
+  "PhoneNumberOfSecondContact": "1147647899",
+  "PaymentMode": "Cash",
+  "Currency": "Egyptian Pound (EGP)",
+  "Month": "Dec",
+  "Year": "2030",
+  "Day": "5",
+  "Airport1": "JFK",
+  "Airport2": "LAX",
+  "Airport3": "ORD",
+  "Remark": "Test",
+  "SettlementPeriod": "On Demand",
+  "ManagerName": "Ayman"
+
+
+}

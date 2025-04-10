@@ -1,0 +1,22 @@
+{
+  "MonthForStartContract": "Dec",
+  "YearForStartContract": "2025",
+  "DayForStartContract": "5",
+  "MonthForEnDContract": "Dec",
+  "YearForEnDContract": "2030",
+  "DayForEnDContract": "5",
+  "State": "Cairo",
+  "City": "Cairo",
+  "CreditLimitAmount": "50000",
+  "TopUpLimit": "500000",
+  "CreditDays": "100",
+  "InvoiceGeneration": "Annually",
+  "ContactPhoneNumber" : "1111111111",
+  "AgencyNumber" : "1111111111",
+  "WonderTravelSalesContact" : "1111111111",
+  "ContactName": "sayed",
+  "Remarks" : "Remarks"
+
+
+
+}

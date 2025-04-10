@@ -1,0 +1,20 @@
+{ "Product" : "Flight",
+  "DiscountNameForAgency": "wwefffx",
+  "DiscountDescription": "sayed",
+  "Country" : "Egypt",
+  "MonthForStartDiscount": "Dec",
+  "YearForStartDiscount": "2025",
+  "DayForStartDiscount": "5",
+
+  "MonthForEndDiscount": "Dec",
+  "YearForEndDiscount": "2030",
+  "DayForEndDiscount": "5",
+  "FareType": "Total Fare",
+  "PercentageOrAmount": "Amount",
+  "DiscountAmount": "50",
+  "Remarks": "Remarks",
+  "DiscountNameForBranch": "wwffffx"
+
+
+
+}

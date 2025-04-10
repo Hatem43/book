@@ -1,0 +1,10 @@
+{
+  "NumberOfAdults": 1,
+  "source": "CAI",
+  "destination": "DXB",
+  "branchname": "Test",
+  "travelmonth": "Apr",
+  "travelyear": "2025",
+  "travelday": "24",
+  "admintravelday": "28"
+}
