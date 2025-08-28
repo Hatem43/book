@@ -24,7 +24,7 @@ public class PassengerDetails {
     public final By Adultpassyear = By.xpath("//*[@id=\"ui-datepicker-div\"]/div/div/select[2]");
     public final By Adultexpiredate = By.xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[4]/td[3]/a");
     public final By Adultnationality = By.xpath("//*[@id=\"passengerNationality_0\"]");
-    public final By Adultnan = By.id("ui-id-2");
+    public final By Adultnan = By.id("ui-id-1");
 
 
     public final By Faredetails = By.xpath("//*[@id=\"flightCashFormTrav\"]/div[2]/div/div[1]/div[4]/div[2]/div/div[2]/ng-container/div");

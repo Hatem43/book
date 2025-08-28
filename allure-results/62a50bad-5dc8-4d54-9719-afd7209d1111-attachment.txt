@@ -1,0 +1,8 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @28-08-2025 20:05:18.0348 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\booking\target\downloade..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 360000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @28-08-2025 20:05:18.0868 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @28-08-2025 20:05:18.0869 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @28-08-2025 20:05:18.0869 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @28-08-2025 20:05:20.0715 PM
+[ReportManager] Target URL: "http://192.168.1.70:8080/odeysysportal/login/loginForm" @28-08-2025 20:05:20.0731 PM
+[ReportManager] Initial URL: "about:blank" @28-08-2025 20:05:20.0748 PM
+[ReportManager] Navigate to url "http://192.168.1.70:8080/odeysysportal/login/loginForm". @28-08-2025 20:05:22.0412 PM

@@ -10,11 +10,11 @@
   </parameter>
   <parameter>
     <key>sun.boot.library.path</key>
-    <value>C:\Users\Hatem Mamdouh\.jdks\openjdk-23.0.2\bin</value>
+    <value>C:\Program Files\Java\jdk-23\bin</value>
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51482 @w@C:\Users\HATEMM~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\HATEMM~1\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket54139 @w@C:\Users\HATEMM~1\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\HATEMM~1\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -38,7 +38,7 @@
   </parameter>
   <parameter>
     <key>java.runtime.version</key>
-    <value>23.0.2+7-58</value>
+    <value>23.0.1+11-39</value>
   </parameter>
   <parameter>
     <key>appender.file.fileName</key>
@@ -62,7 +62,7 @@
   </parameter>
   <parameter>
     <key>java.version</key>
-    <value>23.0.2</value>
+    <value>23.0.1</value>
   </parameter>
   <parameter>
     <key>java.vm.specification.name</key>
@@ -78,7 +78,7 @@
   </parameter>
   <parameter>
     <key>java.library.path</key>
-    <value>C:\Users\Hatem Mamdouh\.jdks\openjdk-23.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Users\Hatem Mamdouh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\Hatem Mamdouh\AppData\Roaming\npm;;.</value>
+    <value>C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_modules;C:\Users\Hatem Mamdouh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin;;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\Hatem Mamdouh\AppData\Roaming\npm;;.</value>
   </parameter>
   <parameter>
     <key>CUCUMBER_PUBLISH_ENABLED</key>
@@ -126,7 +126,7 @@
   </parameter>
   <parameter>
     <key>java.vm.name</key>
-    <value>OpenJDK 64-Bit Server VM</value>
+    <value>Java HotSpot(TM) 64-Bit Server VM</value>
   </parameter>
   <parameter>
     <key>apiConnectionTimeout</key>
@@ -198,7 +198,7 @@
   </parameter>
   <parameter>
     <key>java.runtime.name</key>
-    <value>OpenJDK Runtime Environment</value>
+    <value>Java(TM) SE Runtime Environment</value>
   </parameter>
   <parameter>
     <key>generateExtentReports</key>
@@ -278,11 +278,11 @@
   </parameter>
   <parameter>
     <key>java.version.date</key>
-    <value>2025-01-21</value>
+    <value>2024-10-15</value>
   </parameter>
   <parameter>
     <key>java.home</key>
-    <value>C:\Users\Hatem Mamdouh\.jdks\openjdk-23.0.2</value>
+    <value>C:\Program Files\Java\jdk-23</value>
   </parameter>
   <parameter>
     <key>appender.file.layout.type</key>
@@ -326,7 +326,7 @@
   </parameter>
   <parameter>
     <key>os.name</key>
-    <value>Windows 10</value>
+    <value>Windows 11</value>
   </parameter>
   <parameter>
     <key>dynamicObjectRepositoryPath</key>
@@ -430,7 +430,7 @@
   </parameter>
   <parameter>
     <key>java.class.path</key>
-    <value>C:\Users\HATEMM~1\AppData\Local\Temp\classpath93810039.jar</value>
+    <value>C:\Users\HATEMM~1\AppData\Local\Temp\classpath2022394744.jar</value>
   </parameter>
   <parameter>
     <key>org.uncommons.reportng.escape-output</key>
@@ -482,7 +482,7 @@
   </parameter>
   <parameter>
     <key>java.vm.version</key>
-    <value>23.0.2+7-58</value>
+    <value>23.0.1+11-39</value>
   </parameter>
   <parameter>
     <key>cucumber.glue</key>

@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 
 
 public class PortalLoginPage extends PortalBasePage {
+
     public PortalLoginPage(SHAFT.GUI.WebDriver driver) {
         super(driver);
     }
