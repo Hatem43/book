@@ -34,7 +34,7 @@ public class LoginPage extends BasePage {
 
 
     public void LoginWithValidData(String username, String password) throws InterruptedException {
-        driver.browser().navigateToURL("http://192.168.1.50/auth/login");
+        driver.browser().navigateToURL("http://192.168.1.60/auth/login");
         driver.element().type(usernameele, ValidUser);
 
         if(driver.browser().getCurrentURL().contains("https://mb3.ndceg.com/")){
