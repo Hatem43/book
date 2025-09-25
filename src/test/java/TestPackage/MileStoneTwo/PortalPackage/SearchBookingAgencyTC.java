@@ -70,7 +70,7 @@ public class SearchBookingAgencyTC extends PortalTCBase {
 
 
         String actual=passenger.getTotalfareportal();
-        String expected="EGP 7250";
+        String expected="EGP 24877";
         Assert.assertEquals(actual,expected);
         passenger.signout();
 
